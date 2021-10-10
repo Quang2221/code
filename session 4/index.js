@@ -74,10 +74,10 @@ for (let i = 10; i < 50; i++ ) {
   }
 }
 
-for (let i = 10; i < 50; i+= 2) {
-  console.log(i)
+// // for (let i = 10; i < 50; i+= 2) {  loop
+//   console.log(i)
   
-}
+// }
 
 
 
