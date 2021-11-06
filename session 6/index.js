@@ -31,7 +31,7 @@
 
 // console.log (students[0])
 
-// // add new array
+// // add new element to array
 // students.push (`New student`)
 // console.log(students)
 
