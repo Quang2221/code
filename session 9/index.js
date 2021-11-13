@@ -16,7 +16,19 @@
 // }
 // console.log(numbers) 
 
-// ex2
+// ex2:
+// function getUniqueChars(charracters){
+//     const uniqChars = []
+//     for (let i = 0; i < charraters.length; i++) {
+//         if (checkExists(uniqChars, charraters [i])) {
+//             if (checkExists(uniqChars, charraters[i]) === false) {
+//                 uniqChars.push(charraters[i])
+//             }
+//         }
+//     }
+//     return uniqChars
+// }
+// console.log(UniqueChars([`h`,`e`,`l`,`l`,`o`]))
 
 
 // ss7
@@ -32,4 +44,34 @@
 //     ]
 //     console.log (phone)
 
+
+// DOM Document Object Model
+
+// Document: The whole website 
+// Object: data type {}
+// Model: mô hình
+
+const myButton = document.getElementById(`click-me`);
+// console.log(myButton)
+
+// // do anything with element
+// myButton.innerText = `hello`
+// myButton.style.backgroundColor =`#0000FF`
+// myButton.style.color =`#FFFFFF`
+// myButton.style.fontSize = '20px'
+// myButton.style.borderRadius = `5px`
+// myButton.style.border = `none`
+// myButton.style.width = '150px'
+
+
+// Event:
+let currentFontSize = 20
+myButton.addEventListener('click', () => {
+    console.log(`you clicked me`)
+    currentFontSize += 2
+if (currentFontSize < 40){
+myButton.style.fontSize = `${currentFontSize}px`
+
+}
+})
 
